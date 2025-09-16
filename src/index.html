@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anita's Prortfolio</title>
+  <link rel="stylesheet" href="./output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+
+<body class="bg-gradient-to-r from-purple-900 to-black">
+ <header class="fixed top-0 left-0 w-full z-50 bg-[#0c1e25] shadow-md">
+  <nav class="flex justify-between items-center h-16 px-6 md:px-12 text-white font-semibold">
+    
+    <!-- Logo "Port folio" -->
+    <h1 class="text-3xl font-bold ">
+      <span class="text-gray-800 bg-blue-400 rounded-2xl">Port </span><span class="text-blue-400">folio</span>
+    </h1>
+
+    <!-- Desktop Navigation Menu -->
+    <ul class="hidden md:flex items-center space-x-8 text-[17px]">
+      <li> 
+        <a href="#hero" class="text-blue-400 border-blue-400 pb-1 nav-link">Home</a>
+      </li>
+      <li>
+        <a href="#about" class="hover:text-blue-400  hover:border-blue-400 pb-1 transition duration-200 nav-link">About</a>
+      </li>
+      <li>
+        <a href="#skills" class="hover:text-blue-400  hover:border-blue-400 pb-1 transition duration-200 nav-link">Skills</a>
+      </li>
+      
+        <li>
+        <a href="#services" class="hover:text-blue-400  hover:border-blue-400 pb-1 transition duration-200 nav-link">Services</a>
+      </li>
+      <li>
+        <a href="#certificates" class="hover:text-blue-400  hover:border-blue-400 pb-1 transition duration-200 nav-link">Certificates</a>
+      </li>
+      <li>
+        <a href="#projects" class="hover:text-blue-400  hover:border-blue-400 pb-1 transition duration-200 nav-link">Projects</a>
+      </li>
+      <li>
+        <a href="#contact" class="hover:text-blue-400  hover:border-blue-400 pb-1 transition duration-200 nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Mobile Menu Icon -->
+    <div class="md:hidden cursor-pointer">
+      <i class="fa-solid fa-bars text-xl text-white"></i>
+    </div>
+  </nav>
+</header>
+  <!-- Home Section -->
+<section id="hero" class="bg-gradient-to-r from-purple-900 to-black text-white px-6 md:px-12 py-20 min-h-screen flex items-center justify-center">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-6xl w-full">
+    
+    <!-- Text Content -->
+    <div class="space-y-4 text-center md:text-left animate-slide-in-right">
+      <h2 class="text-3xl md:text-4xl font-semibold">Hello, It's Me</h2>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-white">Anita Kushare</h1>
+      <h3 class="text-2xl md:text-3xl font-semibold text-white">
+        And I'm a <span id="typed" class="text-blue-400"></span>
+      </h3>
+      <p class="text-lg leading-relaxed text-gray-200">
+        I am a proactive learner with extensive knowledge in programming languages.
+      </p>
+
+      <!-- Buttons -->
+      <div class="flex justify-center md:justify-start gap-4 pt-4">
+        <a href="https://drive.google.com/file/d/1kvKrb3u-aNaL7VekFtfMQLFpdxCCC139/view?usp=sharing" target="_blank">
+          <button class="bg-blue-500 hover:bg-blue-500 text-white px-5 py-2 rounded-full font-semibold shadow-lg hover:scale-105 transition">
+            Download CV <i class="fa-solid fa-download ml-1"></i>
+          </button>
+        </a>
+      </div>
+
+      <!-- Social Icons -->
+      <div class="flex justify-center md:justify-start gap-4 pt-2 text-blue-400 text-2xl">
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anitakushare31@gmail.com" target="_blank" class="hover:text-white transition"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com" target="_blank" class="hover:text-white transition" ><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.facebook.com" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://x.com" target="_blank" class="hover:text-white transition"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Image -->
+    <div class="flex justify-center align-top animate-slide-in-right h-96">
+      <img
+        src="https://img.freepik.com/premium-vector/portrait-business-woman_505024-2788.jpg"
+        alt="Anita"
+        class="h-72 md:h-80 w-60 md:w-72 object-cover shadow-lg blob-shape"
+      />
+    </div>
+  </div>
+</section>
+
+
+
+  <div class="h-1 bg-slate-500"></div>
+  <!--------Aboute Section-------->
+  <section
+  class="about w-full min-h-screen flex items-center justify-center bg-gradient-to-r from-purple-900 to-black px-5 py-4 text-white"
+  id="about"
+>
+  <div
+    class="grid w-full max-w-6xl items-center justify-items-center md:text-left grid-cols-1 md:grid-cols-2 text-center"
+  >
+  <!-- Image Section -->
+    <img
+      class="about-image h-80 rounded-lg  p-1"
+      src="images/about1.png"
+      alt="Anita"
+    />
+    <!-- Text Section -->
+    <div class="m-4 text-white about-info">
+      <h2 class="text-4xl font-bold mb-2 text-white">
+        About <span class="text-blue-400">Me</span>
+      </h2>
+      <h3 class="text-3xl font-bold text-blue-400">MERN Stack Developer</h3>
+      <p class="about-text text-2xl leading-relaxed py-4">
+        I’m a passionate Full Stack Developer with a Master's degree in Computer Science and expertise in both front-end and back-end technologies. 
+        <span class="more-text hidden" id="moreText">
+          I’ve built real-world projects using React, Node.js, Express.js, and MongoDB. During my internship at SB InfoTech, I developed a hospital management system using PHP, MySQL, and CodeIgniter. As an Assistant Professor at K.K. Wagh College, I taught web development and computer science fundamentals, blending academic insight with practical application.
+          I’m eager to contribute to a forward-thinking development team. I am available for immediate joining. My diverse skill set and commitment to continuous learning make me a valuable asset to any tech-driven project.
+        </span>
+      </p>
+
+      <div class="flex justify-center md:justify-start">
+        <button
+          class="rounded-full bg-blue-600 py-2 px-4 text-lg text-white transition-all shadow-sm hover:shadow-xl focus:outline-none hover:bg-blue-700 duration-300"
+          type="button"
+          onclick="toggleMoreText()"
+        >
+          Read More
+        </button>
+      </div>
+    </div>
+
+    
+  </div>
+</section>
+
+
+  <div class="h-1 bg-slate-500"></div>
+
+<section id="skills" class="skills-content px-6 md:px-12 py-16 bg-gradient-to-r from-purple-900 to-black text-white">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-4xl font-bold text-center text-white mb-12 animate-fade-in-scale">My <span class="text-blue-400">Skills</span></h2>
+    <div class="grid md:grid-cols-2 gap-12 items-start">
+      
+      <!-- Left: Skill Bars -->
+      <div class="space-y-6 animate-fade-in-scale">
+        <div>
+          <h3 class="text-xl font-bold">HTML5 / CSS <span class="float-right">80%</span></h3>
+          <div class="w-full bg-gray-600 rounded-full h-2">
+            <div class="bg-gradient-to-r from-amber-950 to-blue-600 h-2 rounded-full" style="width: 80%"></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">JavaScript <span class="float-right">75%</span></h3>
+          <div class="w-full bg-gray-600 rounded-full h-2">
+            <div class="bg-gradient-to-r from-amber-950 to-blue-600 h-2 rounded-full" style="width: 75%"></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">MERN Stack <span class="float-right">75%</span></h3>
+          <div class="w-full bg-gray-600 rounded-full h-2">
+            <div class="bg-gradient-to-r from-amber-950 to-blue-600 h-2 rounded-full" style="width: 75%"></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">Data Structures & Algorithms <span class="float-right">65%</span></h3>
+          <div class="w-full bg-gray-600 rounded-full h-2">
+            <div class="bg-gradient-to-r from-amber-950 to-blue-600 h-2 rounded-full" style="width: 65%"></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">DBMS <span class="float-right">65%</span></h3>
+          <div class="w-full bg-gray-600 rounded-full h-2">
+            <div class="bg-gradient-to-r from-amber-950 to-blue-600 h-2 rounded-full" style="width: 65%"></div>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold">Full Stack Dev <span class="float-right">75%</span></h3>
+          <div class="w-full bg-gray-600 rounded-full h-2">
+            <div class="bg-gradient-to-r from-amber-950 to-blue-600 h-2 rounded-full" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Circular Skills -->
+      <div class="grid grid-cols-2 gap-6 justify-items-center animate-fade-in-scale">
+        <!-- Circle 1 -->
+        <div class="flex flex-col items-center">
+          <div class="relative w-32 h-32">
+            <svg class="w-full h-full">
+              <circle cx="64" cy="64" r="56" stroke="#374151" stroke-width="10" fill="none" />
+              <circle cx="64" cy="64" r="56" stroke="url(#gradient1)" stroke-width="10" fill="none" stroke-dasharray="351" stroke-dashoffset="88" stroke-linecap="round" transform="rotate(-90 64 64)" />
+              <defs>
+                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#7e22ce" />
+                  <stop offset="100%" stop-color="#2563eb" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center text-xl font-bold">75%</div>
+          </div>
+          <span class="text-xl font-bold mt-2">Team Work</span>
+        </div>
+
+        <!-- Circle 2 -->
+        <div class="flex flex-col items-center">
+          <div class="relative w-32 h-32">
+            <svg class="w-full h-full">
+              <circle cx="64" cy="64" r="56" stroke="#374151" stroke-width="10" fill="none" />
+              <circle cx="64" cy="64" r="56" stroke="url(#gradient2)" stroke-width="10" fill="none" stroke-dasharray="351" stroke-dashoffset="35" stroke-linecap="round" transform="rotate(-90 64 64)" />
+              <defs>
+                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#7e22ce" />
+                  <stop offset="100%" stop-color="#2563eb" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center text-xl font-bold">90%</div>
+          </div>
+          <span class="text-xl font-bold mt-2">Creativity</span>
+        </div>
+
+        <!-- Circle 3 -->
+        <div class="flex flex-col items-center">
+          <div class="relative w-32 h-32">
+            <svg class="w-full h-full">
+              <circle cx="64" cy="64" r="56" stroke="#374151" stroke-width="10" fill="none" />
+              <circle cx="64" cy="64" r="56" stroke="url(#gradient3)" stroke-width="10" fill="none" stroke-dasharray="351" stroke-dashoffset="105" stroke-linecap="round" transform="rotate(-90 64 64)" />
+              <defs>
+                <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#7e22ce" />
+                  <stop offset="100%" stop-color="#2563eb" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center text-xl font-bold">70%</div>
+          </div>
+          <span class="text-xl font-bold mt-2">Problem Solving</span>
+        </div>
+
+        <!-- Circle 4 -->
+        <div class="flex flex-col items-center">
+          <div class="relative w-32 h-32">
+            <svg class="w-full h-full">
+              <circle cx="64" cy="64" r="56" stroke="#374151" stroke-width="10" fill="none" />
+              <circle cx="64" cy="64" r="56" stroke="url(#gradient4)" stroke-width="10" fill="none" stroke-dasharray="351" stroke-dashoffset="88" stroke-linecap="round" transform="rotate(-90 64 64)" />
+              <defs>
+                <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#7e22ce" />
+                  <stop offset="100%" stop-color="#2563eb" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center text-xl font-bold">75%</div>
+          </div>
+          <span class="text-xl font-bold mt-2">Communication</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <div class="h-1 bg-slate-500"></div>
+  <!--------Services section-------->
+  <section class="services-content mx-w-7xl px-6 md:px-12 py-16 bg-gradient-to-r from-purple-900 to-black " id="services">
+    <div class="text-center max-w-6xl mx-auto">
+      <h2 class="font-bold text-4xl mb-2 text-white ">My Services</h2>
+      <h3 class="text-primary text-3xl font-bold font-inter md:mb-2 lg:mb-4 mb-16 text-blue-400">What I Do</h3>
+    </div>
+    <div class="flex flex-col m-auto md:flex-row justify-center items-center gap-12 md:gap-6 text-white">
+      <div
+        class="w-[300px] md:w-[354px] px-5 py-8 rounded-lg border border-purple shadow-[#5dadec3b] cursor-pointer shadow-xl transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400 hover:scale-105 ">
+        <img src="/src/images/frontend.webp" alt="Web design" class="w-[90%] mb-8 mx-auto h-40">
+        <h3
+          class=" text-center text-2xl lg:my-5 uppercase bg-gradient-to-t from-teal-400 to-white text-transparent bg-clip-text">
+          Frontend Development </h3>
+        <p class=" text-center md:text-justify text-xl">Create clean, user-friendly, and interactive interfaces using HTML, CSS/Tailwind Css, JavaScript, and React. I ensure cross-browser compatibility and responsive design for all devices.
+</p>
+</p>
+        <div class="flex flex-col justify-center items-center my-4"><button
+            class="rounded-full bg-purple-800 py-1 px-2.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-xl focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none duration-300 cursor-pointer hover:shadow-gray-400"
+            type="button" onclick="toggleMoreText()">
+            Read More
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-[300px] md:w-[354px]  px-5 py-8 rounded-lg border border-purple shadow-[#5dadec3b] cursor-pointer shadow-xl transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400 hover:scale-105">
+        <img src="/src/images/backend.webp" alt="Web design" class="w-[90%] mb-8 mx-auto md:h-40">
+        <h3
+          class=" text-center text-2xl my-5 uppercase bg-gradient-to-t from-teal-400 to-white text-transparent bg-clip-text">
+          Backend Development</h3>
+        <p class=" text-center md:text-justify text-xl">Develop scalable and secure RESTful APIs using Node.js and Express. I manage databases with MongoDB, integrate authentication, and ensure smooth client-server interaction.</p>
+        <div class="flex flex-col justify-center items-center my-4">
+          <button
+            class="rounded-full bg-purple-800 py-1 px-2.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-xl focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none duration-300 cursor-pointer hover:shadow-gray-400"
+            type="button">
+            Read More
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-[300px] md:w-[354px] px-5 py-8 rounded-lg border border-purple shadow-[#5dadec3b] cursor-pointer shadow-xl transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400 hover:scale-105">
+        <img src="/src/images/free1.png" alt="Web design" class="w-[90%] mb-8 mx-auto lg:h-40 md:h-32">
+        <h3
+          class="text-center text-2xl lg:my-5 uppercase bg-gradient-to-t from-teal-400 to-white text-transparent bg-clip-text">
+          Responsive Design</h3>
+        <p class="text-justify text-xl">Creating responsive design ensure all websites are mobile-friendly and work seamlessly across desktops, tablets, and smartphones using modern CSS techniques and frameworks.</p>
+        <div class="flex flex-col justify-center items-center my-4"><button
+            class=" rounded-full bg-purple-800 py-1 px-2.5 border border-transparent text-center text-sm text-white transition-all shadow-sm hover:shadow-xl focus:bg-slate-700 focus:shadow-none active:bg-slate-700 hover:bg-slate-700 active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none duration-300 cursor-pointer hover:shadow-gray-400"
+            type="button">
+            Read More
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="h-1 bg-slate-500"></div>
+  <!------certificate section------>>
+  <section class="cetrificate-content px-6 md:px-12 py-16 bg-gradient-to-r from-purple-900 to-black" id="certificates">
+    <div class="text-center text-4xl text-white font-bold">
+      <h2>My <span class="text-blue-400">Certificates</span> </h2>
+    </div>
+
+    <div class="my-16 flex flex-col md:flex-row justify-center items-center gap-12 md:gap-6 text-white">
+      <div
+        class=" w-[300px] md:w-[400px] px-5 py-8  rounded-lg border border-purple shadow-[#5dadec3b] cursor-pointer shadow-xl transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400 text-center">
+        <h3
+          class="text-2xl uppercase font-bold bg-gradient-to-r from-slate-200 via-blue-400 to-purple-500 inline-block text-transparent bg-clip-text">
+          Full Stack Web Development</h3>
+          
+        <p class="text-xl md:p-3 whitespace-pre-wrap">Issued by: Internshala</p>
+        <p class="text-lg">Date: June 2025</p>
+        <a href="/src/images/FSD.png" target="_blank" rel="noopener noreferrer" class="">
+          <div class="flex h-40 w-full flex-row items-center justify-center">
+            <button
+             type="button" class="animate-border inline-block rounded-md bg-gradient-to-r from-purple-600 via-blue-500 to-pink-500 bg-[length:400%_400%] p-1">
+              <span class="block rounded-md bg-slate-950 px-5 py-3 font-bold text-white"> View Certificate </span>
+            </button>
+          </div>
+        </a>
+      </div>
+
+      <div
+        class="  w-[300px] md:w-[400px] px-5 py-8 rounded-lg border border-purple shadow-[#5dadec3b] cursor-pointer shadow-xl transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400 text-center gap-6">
+        <h3
+          class="text-2xl uppercase font-bold bg-gradient-to-r from-slate-200 via-blue-400 to-purple-500 inline-block text-transparent bg-clip-text">
+          Developing Interactive Websites with JavaScript</h3>
+        <p class="text-xl p-3">Issued by: Internshala</p>
+        <p class="text-lg">Date: Dec 2024</p>
+        <a href="/src/images/certificate2.png" target="_se" rel="noopener noreferrer" class="certificate-link">
+          <div class="flex h-40 w-full flex-row items-center justify-center">
+            <button
+              class="animate-border inline-block rounded-md bg-white  bg-gradient-to-r from-purple-600 via-blue-500 to-pink-500 bg-[length:400%_400%] p-1">
+              <span class="block rounded-md bg-slate-900 px-5 py-3 font-bold text-white"> View Certificate </span>
+            </button>
+          </div>
+        </a>
+      </div>
+
+      <div
+        class="w-[300px] md:w-[400px] px-5 py-8 rounded-lg border border-purple shadow-[#5dadec3b] cursor-pointer shadow-xl transition-shadow duration-300 hover:shadow-lg hover:shadow-gray-400 text-center">
+        <h3
+          class="text-2xl uppercase font-bold bg-gradient-to-r from-slate-200 via-blue-400 to-purple-500 inline-block text-transparent bg-clip-text">
+          Data Structures & Algorithms</h3>
+        <p class="text-xl p-3">Issued by:Internshala</p>
+        <p class="text-lg ">Date: March 2025</p>
+        <a href="/src/images/DSA.png" target="_blank" rel="noopener noreferrer" class="md:h-48 w-[300px]">
+          <div class="flex h-40 w-full flex-row items-center justify-center">
+            <button
+              class="animate-border inline-block rounded-md bg-white  bg-gradient-to-r from-purple-600 via-blue-500 to-pink-500 bg-[length:400%_400%] p-1">
+              <span class="block rounded-md bg-slate-900 px-5 py-3 font-bold text-white"> View Certificate </span>
+            </button>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <div class="h-1 bg-slate-500"></div>
+  <!--------Project section-------->
+  <section class="project-content px-6 md:px-12 py-16 bg-gradient-to-r from-purple-900 to-black" id="projects">
+  <div class="text-center text-white">
+    <h2 class="text-4xl font-bold mb-5">Recent <span class="text-blue-400">Projects</span></h2>
+    <p class="mb-8 md:w-3/4 my-2 mx-auto text-xl">
+      I bring a passion for creating user-friendly experiences and a drive
+      design trends and technology to deliver top-notch design that meet user needs and exceed their expectation
+    </p>
+  </div>
+
+  <div class="flex items-center justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Weather Dashboard -->
+      <div class="group relative item-center justify-center overflow-hidden cursor-pointer">
+        <div class="md:h-56 md:w-[300px] border border-primary">
+          <img src="/src/images/weatherA.png" alt=""
+            class="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-transparent group-hover:from-blue-400/70 group-hover:via-blue-400/60 group-hover:to-blue-400/70"></div>
+        <div class="absolute inset-0 flex flex-col items-center px-1 text-center translate-y-[10%] group-hover:tranlate-y-0 transition-all">
+          <h1 class="text-xl font-bold uppercase text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">Weather App</h1>
+          <p class="text-lg italic text-white mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            User-friendly web application using HTML, CSS, and JavaScript, incorporating a Weather API to provide real-time temperature info for user-specified locations.
+          </p>
+          <a href="https://github.com/Anitakushare/Weather-Application" target="_blank"
+            class="mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white h-6 w-6 rounded-full">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Student Registration System -->
+      <div class="group relative item-center justify-center overflow-hidden cursor-pointer">
+        <div class="md:h-56 md:w-[300px] border border-primary">
+          <img src="/src/images/studRegIMG.png" alt=""
+            class="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-transparent group-hover:from-blue-400/70 group-hover:via-blue-400/60 group-hover:to-blue-400/70"></div>
+        <div class="absolute inset-0 flex flex-col items-center px-1 text-center translate-y-[10%] group-hover:tranlate-y-0 transition-all">
+          <h1 class="text-xl font-bold uppercase text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">Student Registration System</h1>
+          <p class="text-lg italic text-white mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            Developed a student registration system using HTML,Tailwind CSS and JavaScript to register and manage student with responsive UI.
+          </p>
+          <a href="https://github.com/Anitakushare/Student-Registration-System" target="_blank"
+            class="mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white h-6 w-6 rounded-full">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Online Library -->
+      <div class="group relative item-center justify-center overflow-hidden cursor-pointer">
+        <div class="md:h-56 md:w-[300px] border border-primary">
+          <img src="/src/images/libraryIMG.png" alt=""
+            class="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-transparent group-hover:from-blue-400/70 group-hover:via-blue-400/60 group-hover:to-blue-400/70"></div>
+        <div class="absolute inset-0 flex flex-col items-center px-1 text-center translate-y-[10%] group-hover:tranlate-y-0 transition-all">
+          <h1 class="text-2xl font-bold uppercase text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">Online Library System</h1>
+          <p class="text-lg italic text-white mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            Developed an online library application using React and Tailwind CSS with book listing, search, and user-friendly navigation.
+          </p>
+          <a href="https://github.com/Anitakushare/Online-Library-System" target="_blank"
+            class="mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white h-6 w-6 rounded-full">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- E-Commerce Site -->
+      <div class="group relative item-center justify-center overflow-hidden cursor-pointer">
+        <div class="md:h-56 md:w-[300px] border border-primary">
+          <img src="/src/images/shopyGlobe.png" alt=""
+            class="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-transparent group-hover:from-blue-400/70 group-hover:via-blue-400/60 group-hover:to-blue-400/70"></div>
+        <div class="absolute inset-0 flex flex-col items-center px-1 text-center translate-y-[10%] group-hover:tranlate-y-0 transition-all">
+          <h1 class="text-2xl font-bold uppercase text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">E-Commerce Site</h1>
+          <p class="text-lg italic text-white mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            Developed an e-commerce website using MERN stack with product listing, cart, checkout, and user authentication.
+          </p>
+          <a href="https://github.com/Anitakushare/ShoppyGlobe" target="_blank"
+            class="mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white h-6 w-6 rounded-full">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Food Delivery App -->
+      <div class="group relative item-center justify-center overflow-hidden cursor-pointer">
+        <div class="md:h-56 md:w-[300px] border border-primary">
+          <img src="/src/images/foodDeliveryIMG.png" alt=""
+            class="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-transparent group-hover:from-blue-400/70 group-hover:via-blue-400/60 group-hover:to-blue-400/70"></div>
+        <div class="absolute inset-0 flex flex-col items-center px-1 text-center translate-y-[10%] group-hover:tranlate-y-0 transition-all">
+          <h1 class="text-2xl font-bold uppercase text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">Food Delivery App</h1>
+          <p class="text-lg italic text-white mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            Developed a full-stack food delivery application using MERN stack with restaurant listing, menu, cart, and order management features.
+          </p>
+          <a href="https://github.com/Anitakushare/food-delivery" target="_blank"
+            class="mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white h-6 w-6 rounded-full">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- YouTube Clone -->
+      <div class="group relative item-center justify-center overflow-hidden cursor-pointer">
+        <div class="md:h-56 md:w-[300px] border border-primary">
+          <img src="/src/images/youtubIMG.png" alt=""
+            class="h-full w-full object-cover group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-t from-transparent via-transparent to-transparent group-hover:from-blue-400/70 group-hover:via-blue-400/60 group-hover:to-blue-400/70"></div>
+        <div class="absolute inset-0 flex flex-col items-center px-1 text-center translate-y-[10%] group-hover:tranlate-y-0 transition-all">
+          <h1 class="text-2xl font-bold uppercase text-black opacity-0 group-hover:opacity-100 transition-opacity duration-300">Youtube Clone</h1>
+          <p class="text-lg italic text-white mb-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+           Built a MERN YouTube clone with Tailwind CSS, featuring video upload/playback, search, channels, likes/dislikes, comments, and JWT auth.
+          </p>
+          <a href="https://github.com/Anitakushare/YouTube-Clone-Project" target="_blank"
+            class="mb-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white h-6 w-6 rounded-full">
+            <i class="fas fa-external-link-alt"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  <div class="h-1 bg-slate-500"></div>
+  <!--------Contact section-------->
+  <section id="contact" class="contact-content px-6 md:px-12 py-16 bg-gradient-to-r from-purple-900 to-black text-white">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl font-bold">Contact Me</h2>
+      <form class="mt-8 max-w-lg mx-auto">
+        <input type="text" id="name" placeholder="Your Name" value="" class="w-[90%] md:w-full p-3 mb-4 rounded-md bg-gray-600">
+        <input type="email" id="pEmail" value="" placeholder="Your Email" class="w-[90%] md:w-full p-3 mb-4 rounded-md bg-gray-600">
+        <textarea placeholder="Your Message" id="message" value="" class="w-[90%] md:w-full md:h-48 p-3 mb-4 rounded-md bg-gray-600"></textarea>
+        <span id="error"></span>
+        <button type="submit" class="px-6 py-2 bg-blue-500 hover:bg-blue-600 rounded-full text-white">Send Message</button>
+      </form>
+    </div>
+  </section>
+  <!--------footer section-------->
+
+  <footer class="shadow bg-gray-900">
+    <div class="flex flex-col md:flex-row justify-evenly items-center h-12">
+      <span class="md:text-xl text-blue-600 text-center block">Porfolio<a href="#">©</a>2025,All rights Reserved</span>
+      
+
+    </div>
+  </footer>
+
+</main>
+  <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
