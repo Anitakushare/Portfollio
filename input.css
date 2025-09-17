@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@theme {
+  --animate-fade-in-scale: fade-in-scale 1s ease-in-out;
+  @keyframes fade-in-scale {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  --animate-slide-in-left: slide-in-left 1s ease-in-out forwards;
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  --animate-slide-in-right: slide-in-right 1s ease-out forwards;
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+}
+@layer utilities {
+  .blob-shape {
+    clip-path: polygon(
+      30% 5%, 70% 5%, 95% 30%, 95% 70%, 70% 95%, 30% 95%, 5% 70%, 5% 30%
+    );
+    animation: blobMorph 8s ease-in-out infinite;
+  }
+
+  @keyframes blobMorph {
+    0%, 100% {
+      clip-path: polygon(
+        30% 5%, 70% 5%, 95% 30%, 95% 70%, 70% 95%, 30% 95%, 5% 70%, 5% 30%
+      );
+    }
+    50% {
+      clip-path: polygon(
+        40% 0%, 80% 10%, 100% 40%, 90% 80%, 60% 100%, 20% 90%, 0% 60%, 10% 20%
+      );
+    }
+  }
+}
